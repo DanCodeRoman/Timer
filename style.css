@@ -6,7 +6,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(135deg, #ff4d4d, #ff0000);
+  background: linear-gradient(135deg, #4caf50, #087f23); /* Green gradient */
   color: white;
 }
 
