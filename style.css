@@ -81,3 +81,23 @@ body {
 .timer button:hover {
   background: #990000;
 }
+
+/* Progress bar container */
+.progress-container {
+  width: 100%;
+  height: 10px;
+  background: rgba(255, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-top: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Progress bar */
+.progress-bar {
+  height: 100%;
+  background: #ff0000;
+  width: 100%; /* Full width initially */
+  transition: width 0.1s linear;
+}
+
